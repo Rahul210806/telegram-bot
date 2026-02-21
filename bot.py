@@ -16,7 +16,6 @@ VIDEO_FILE_ID = [
 ]
 
 PHOTO_URLS = [
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/photo1.png",
     "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/baby%201-12%20age%20cxxp.jpeg",
     "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/dark%20web%20hard%20cxxp.jpeg",
     "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/desi%20cxxp.jpeg",
@@ -30,7 +29,6 @@ PHOTO_URLS = [
 
 # Seller info
 SELLER_LINK = "https://t.me/yourusername"
-SELLER_ID_TEXT = "Seller ID: Rahul210806" # Change this to your actual ID
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Create the button
