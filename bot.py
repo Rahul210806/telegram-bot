@@ -7,26 +7,7 @@ TOKEN = os.getenv("TOKEN")
 SELLER_LINK = "https://t.me/yourusername"
 
 PHOTO_URLS = [
-    "PHOTO_LINK_1",
-    "PHOTO_LINK_2",
-    "PHOTO_LINK_3",
-    "PHOTO_LINK_4",
-    "PHOTO_LINK_5",
-    "PHOTO_LINK_6",
-    "PHOTO_LINK_7",
-    "PHOTO_LINK_8",
-    "PHOTO_LINK_9",
-    "PHOTO_LINK_10",
-    "PHOTO_LINK_11",
-    "PHOTO_LINK_12",
-    "PHOTO_LINK_13",
-    "PHOTO_LINK_14",
-    "PHOTO_LINK_15",
-    "PHOTO_LINK_16",
-    "PHOTO_LINK_17",
-    "PHOTO_LINK_18",
-    "PHOTO_LINK_19",
-    "PHOTO_LINK_20"
+    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/photo1.png"
 ]
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
