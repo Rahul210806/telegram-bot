@@ -1,6 +1,6 @@
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
 TOKEN = os.getenv("TOKEN")
 
@@ -21,6 +21,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=reply_markup
         )
 
+# 🔥 NEW FUNCTION — THIS WILL PRINT FILE IDs
+async def get_file_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if update.message.video:
+        print("VIDEO FILE ID:", update.message.video.file_id)
+
+    if update.message.photo:
+        print("PHOTO FILE ID:", update.message.photo[-1].file_id)
+
 app = ApplicationBuilder().token(TOKEN).build()
+
 app.add_handler(CommandHandler("start", start))
+app.add_handler(MessageHandler(filters.ALL, get_file_id))  # 🔥 added
+
 app.run_polling()
