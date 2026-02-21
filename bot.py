@@ -16,25 +16,21 @@ VIDEO_FILE_ID = [
 ]
 
 PHOTO_URLS = [
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/baby%201-12%20age%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/dark%20web%20hard%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/desi%20cxxp.jpeg",
+    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/photo1.png",
     "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/family%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/indian%20mallu%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/indian%20pure%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/pedo%20mom%20son%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/tamil%20mallu%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/teen%2015-16%20age%20cxxp.jpeg"
+    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/desi%20cxxp.jpeg",
+    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/indian%20mallu%20cxxp.jpeg"
 ]
 
 # Seller info
 SELLER_LINK = "https://t.me/yourusername"
+SELLER_ID_TEXT = "Seller ID: Rahul210806" # Change this to your actual ID
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Create the button
     keyboard = [[InlineKeyboardButton("Contact Seller", url=SELLER_LINK)]]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    
+   
     # Send all videos one after another
     for video_id in VIDEO_FILE_ID:
         await update.message.reply_video(
@@ -42,7 +38,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             caption=f"{SELLER_ID_TEXT}\nCustom text for the video",
             reply_markup=reply_markup
         )
-    
+   
     # Send photos
     for photo in PHOTO_URLS:
         await update.message.reply_photo(
