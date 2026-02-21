@@ -46,7 +46,7 @@ PHOTO_CAPTIONS = [
 ]
 
 # Seller contact link (button only – no text in media captions)
-SELLER_LINK = "https://t.me/Le_bhai_dekh"
+SELLER_LINK = "https://t.me/Le_bro_le"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Create contact button
