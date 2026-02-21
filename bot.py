@@ -16,34 +16,13 @@ VIDEO_FILE_ID = [
 
 # Unique caption for each video
 VIDEO_CAPTIONS = [
-    "chhotte bacche
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "gav ke desi
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "gav me chhup ke
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "mulsim ki leli
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "jabarjasti leli
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "Tamil ki leli
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "gay
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-"
+    "chhotte bacche \n🔥 500+ MEDIA \n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-",
+    "gav ke desi \n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP \n✅ 𝗥𝗦 • 99₹/-",
+    "gav me chhup ke \n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP \n✅ 𝗥𝗦 • 99₹/-",
+    "mulsim ki leli \n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP \n✅ 𝗥𝗦 • 99₹/-",
+    "jabarjasti leli \n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP \n✅ 𝗥𝗦 • 99₹/-",
+    "Tamil ki leli\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP \n✅ 𝗥𝗦 • 99₹/-",
+    "gay \n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP \n✅ 𝗥𝗦 • 99₹/-"
 ]
 
 # Photo URLs (only allowed ones)
@@ -58,30 +37,12 @@ PHOTO_URLS = [
 
 # Unique caption for each photo
 PHOTO_CAPTIONS = [
-    "1 se 12 ke bacche
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "15 se 16 ke bacche
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "family me
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "jabarjasti le li
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "desi gav ki khetme
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-",
-    "chup ke video bana li
-    🔥 500+ MEDIA
-🔥LIFETIME MEMBERSHIP 
-✅ 𝗥𝗦 • 99₹/-"
+    "1 se 12 ke bacche\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-",
+    "15 se 16 ke bacche\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-",
+    "family me\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-",
+    "jabarjasti le li\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-",
+    "desi gav ki khetme\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-",
+    "chup ke video bana li\n🔥 500+ MEDIA\n🔥LIFETIME MEMBERSHIP\n✅ 𝗥𝗦 • 99₹/-"
 ]
 
 # Seller contact link (button only – no text in media captions)
