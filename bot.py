@@ -28,10 +28,12 @@ VIDEO_CAPTIONS = [
 
 # Photo URLs (only allowed ones)
 PHOTO_URLS = [
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/photo1.png",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/family%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/desi%20cxxp.jpeg",
-    "https://raw.githubusercontent.com/Rahul210806/telegram-bot/main/indian%20mallu%20cxxp.jpeg"
+    "https://github.com/Rahul210806/telegram-bot/raw/main/baby%201-12%20age%20cxxp.jpeg",
+    "https://github.com/Rahul210806/telegram-bot/raw/main/teen%2015-16%20age%20cxxp.jpeg",
+    "https://github.com/Rahul210806/telegram-bot/raw/main/family%20cxxp.jpeg",
+    "https://github.com/Rahul210806/telegram-bot/raw/main/dark%20web%20hard%20cxxp.jpeg",
+    "https://github.com/Rahul210806/telegram-bot/raw/main/desi%20cxxp.jpeg",
+    "https://github.com/Rahul210806/telegram-bot/raw/main/indian%20mallu%20cxxp.jpeg"
 ]
 
 # Unique caption for each photo
