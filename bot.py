@@ -5,25 +5,24 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 TOKEN = os.getenv("TOKEN")
 
 # Video file IDs
-VIDEO_FILE_ID = [
-    "BAACAgUAAxkBAAMhaZmCyqLQdpv_bvsoQOJKimypUtYAAsogAAKQJ9FUyEMWpJirlss6BA",
+VIDEO_FILE_ID = [ 
     "BAACAgUAAxkBAAMiaZmCyhz1cd-PzoDWnVWJ7Y-BpB8AAssgAAKQJ9FULV-rPg4pp8k6BA",
-    "BAACAgUAAxkBAAMjaZmCyn93daXvkLKPi5J_7sZ15wwAAswgAAKQJ9FUBPsGf0W43Uk6BA",
     "BAACAgUAAxkBAAMdaZmCygXT7hJe7ASOfS1VIzz-JFsAAsYgAAKQJ9FUN3WXG6qEq-06BA",
-    "BAACAgUAAxkBAAMeaZmCykuCx5DnlzhXmK32FmONtMMAAscgAAKQJ9FUuSfkyRHTVgc6BA",
+    "BAACAgUAAxkBAAMjaZmCyn93daXvkLKPi5J_7sZ15wwAAswgAAKQJ9FUBPsGf0W43Uk6BA",
     "BAACAgUAAxkBAAMfaZmCyuYRujn47K1v5SPYJGTQfWYAAsggAAKQJ9FUwZsDuWm4iqw6BA",
-    "BAACAgUAAxkBAAMgaZmCyhyjFZC5cZTAEzP4x_9hznsAAskgAAKQJ9FUK_RVkThxjsQ6BA"
+    "BAACAgUAAxkBAAMhaZmCyqLQdpv_bvsoQOJKimypUtYAAsogAAKQJ9FUyEMWpJirlss6BA",
+    "BAACAgUAAxkBAAMeaZmCykuCx5DnlzhXmK32FmONtMMAAscgAAKQJ9FUuSfkyRHTVgc6BA"    
 ]
 
 # Unique caption for each video
 VIDEO_CAPTIONS = [
-    "Graceful classical dance in vibrant attire",
-    "Elegant pose with traditional jewelry",
-    "Festive celebration full of joy and color",
-    "Beautiful ethnic wear showcase",
-    "Charming smile in soft evening light",
-    "Timeless cultural elegance captured",
-    "Vibrant energy of traditional performance"
+    "chhotte bacche",
+    "gav ke desi",
+    "gav me chhup ke",
+    "mulsim ki leli",
+    "jabarjasti leli",
+    "Tamil ki leli",
+    "gay"
 ]
 
 # Photo URLs (only allowed ones)
@@ -38,10 +37,12 @@ PHOTO_URLS = [
 
 # Unique caption for each photo
 PHOTO_CAPTIONS = [
-    "Serene portrait in natural surroundings",
-    "Warm family moment full of love",
-    "Authentic desi style and grace",
-    "South Indian beauty and tradition"
+    "1 se 12 ke bacche",
+    "15 se 16 ke bacche",
+    "family me ",
+    "jabarjasti le li",
+    "desi gav ki khetme",
+    "chup ke video bana li"
 ]
 
 # Seller contact link (button only – no text in media captions)
